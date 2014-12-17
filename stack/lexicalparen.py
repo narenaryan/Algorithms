@@ -1,5 +1,5 @@
 from mystack import Stack
-
+#Finds whether given input paranthesis sequence is right or not.A stack application
 s = Stack()
 
 #((((()))))()
