@@ -22,7 +22,7 @@ def Place(k,i):
 
 def Nqueens(k,n):
 	#Recursive solution for Nqueens
-	global x,solutions
+	global x
 	for i in xrange(n):
 		#If placable, then place
 		if Place(k,i):
