@@ -1,7 +1,7 @@
 #Program that prints all possible Nqueen soutions in a n*n chess board
 #usage:  start_queening(0,n) where n is the row count of chess board '4' , '8' etc..
 
-x,solutions = [],[]
+x = []
 
 def start_queening(pos,n):
 	global x
